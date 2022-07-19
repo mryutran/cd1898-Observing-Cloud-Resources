@@ -2309,7 +2309,7 @@ prometheus:
     ## Cannot be used with additionalScrapeConfigs
     additionalScrapeConfigsSecret:
       enabled: true
-      name: additional-scrape-configs
+      name: additional-scrape-config
       key: prometheus-additional.yaml
 
     ## additionalPrometheusSecretsAnnotations allows to add annotations to the kubernetes secret. This can be useful
